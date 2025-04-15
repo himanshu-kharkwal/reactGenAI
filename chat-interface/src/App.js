@@ -15,7 +15,7 @@ const ChatInterface = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://ykvv4099qe.execute-api.ap-south-1.amazonaws.com/prod/chat-bot", {
+      const response = await fetch("https://ykvv4099qe.execute-api.ap-south-1.amazonaws.com/prod/chat-bot/teted", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
